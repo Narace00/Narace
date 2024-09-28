@@ -2494,3 +2494,72 @@ h6 {
 .whatsapp-button:after {
   content: ''; /* Optional additional effect */
 }
+/* Messenger Button Styles */
+.messenger-button {
+  position: fixed; /* Fixed positioning */
+  bottom: 30px; /* Distance from the bottom */
+  right: 30px; /* Distance from the right */
+  background: #007bff; /* Background color (blue) */
+  color: #fff; /* Icon color */
+  border-radius: 50%; /* Circular shape */
+  height: 80px; /* Increased button height */
+  width: 80px; /* Increased button width */
+  line-height: 76px; /* Center the icon vertically */
+  text-align: center; /* Center the icon horizontally */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Shadow effect */
+  font-size: 49px; /* Increased icon size */
+  z-index: 1000; /* Ensure it’s above other elements */
+  animation: wave-messenger 1.5s infinite; /* Wave animation */
+  transition: transform 0.3s; /* Smooth transform on hover */
+}
+
+/* Wave Animation for Messenger */
+@keyframes wave-messenger {
+  0%, 100% {
+      transform: translateY(0);
+      background: #007bff; /* Wave color */
+  }
+  50% {
+      transform: translateY(-5px); /* Adjust wave height */
+  }
+}
+
+/* Additional Circle Border for Messenger */
+.messenger-button:before {
+  content: '';
+  position: absolute;
+  top: -5px; /* Adjust for border visibility */
+  left: -5px; /* Adjust for border visibility */
+  right: -5px; /* Adjust for border visibility */
+  bottom: -5px; /* Adjust for border visibility */
+  border: 3px solid #007bff; /* Blue border */
+  border-radius: 50%; /* Circular border */
+  animation: pulse-messenger 1.5s infinite; /* Pulse animation */
+}
+
+/* Pulse Animation for Messenger */
+@keyframes pulse-messenger {
+  0% {
+      transform: scale(1);
+      opacity: 0.8;
+  }
+  50% {
+      transform: scale(1.1); /* Slightly increase the size */
+      opacity: 1;
+  }
+  100% {
+      transform: scale(1);
+      opacity: 0.8;
+  }
+}
+
+/* Shake Effect on Hover for Messenger */
+.messenger-button:hover {
+  animation: shake 0.5s; /* Shake animation on hover */
+  transform: scale(1.1); /* Slightly grow on hover */
+}
+
+/* Messenger Icon */
+.messenger-button i {
+  color: #fff; /* Icon color */
+}
