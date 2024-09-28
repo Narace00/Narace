@@ -2494,6 +2494,15 @@ h6 {
 .whatsapp-button:after {
   content: ''; /* Optional additional effect */
 }
+@media (max-width: 768px) { /* Adjust the max-width as needed for your responsive breakpoint */
+  .whatsapp-button {
+      height: 50px; /* Adjust height for mobile */
+      width: 50px; /* Adjust width for mobile */
+      line-height: 50px; /* Center icon vertically for mobile */
+      font-size: 35px; /* Adjust icon size for mobile */
+  }
+}
+
 /* Messenger Button Styles */
 .messenger-button {
   position: fixed; /* Fixed positioning */
@@ -2562,4 +2571,12 @@ h6 {
 /* Messenger Icon */
 .messenger-button i {
   color: #fff; /* Icon color */
+}
+@media (max-width: 768px) { /* Adjust the max-width as needed for your responsive breakpoint */
+  .messenger-button {
+      height: 50px; /* Adjust height for mobile */
+      width: 50px; /* Adjust width for mobile */
+      line-height: 50px; /* Center icon vertically for mobile */
+      font-size: 35px; /* Adjust icon size for mobile */
+  }
 }
