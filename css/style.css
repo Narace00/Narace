@@ -2405,23 +2405,25 @@ h6 {
   background: #4fce5d; /* Background color */
   color: #fff; /* Icon color */
   border-radius: 50%; /* Circular shape */
-  height: 60px; /* Button height */
-  width: 60px; /* Button width */
-  line-height: 60px; /* Center the icon */
-  text-align: center; /* Center the icon */
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Shadow effect */
-  font-size: 30px; /* Icon size */
+  height: 80px; /* Increased button height */
+  width: 80px; /* Increased button width */
+  line-height: 76px; /* Center the icon vertically */
+  text-align: center; /* Center the icon horizontally */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Shadow effect */
+  font-size: 49px; /* Increased icon size */
   z-index: 1000; /* Ensure it’s above other elements */
   animation: wave 1.5s infinite; /* Wave animation */
+  transition: transform 0.3s; /* Smooth transform on hover */
 }
 
 /* Wave Animation */
 @keyframes wave {
   0%, 100% {
       transform: translateY(0);
+      background: #4fce5d; /* Wave color */
   }
   50% {
-      transform: translateY(-5px); /* Adjust the wave height */
+      transform: translateY(-5px); /* Adjust wave height */
   }
 }
 
@@ -2433,7 +2435,7 @@ h6 {
   left: -5px; /* Adjust for border visibility */
   right: -5px; /* Adjust for border visibility */
   bottom: -5px; /* Adjust for border visibility */
-  border: 2px solid #4fce5d; /* Border color */
+  border: 3px solid #4fce5d; /* Increased green border size */
   border-radius: 50%; /* Circular border */
   animation: pulse 1.5s infinite; /* Pulse animation */
 }
@@ -2457,6 +2459,7 @@ h6 {
 /* Shake Effect on Hover */
 .whatsapp-button:hover {
   animation: shake 0.5s; /* Shake animation on hover */
+  transform: scale(1.1); /* Slightly grow on hover */
 }
 
 @keyframes shake {
@@ -2465,4 +2468,29 @@ h6 {
   50% { transform: translateX(3px); }
   75% { transform: translateX(-3px); }
   100% { transform: translateX(0); }
+}
+
+/* Icon Styles */
+.fab, .fa-brands {
+  font-family: 'Font Awesome 6 Brands'; /* Ensure correct font family */
+  font-weight: 400;
+}
+.fa, .fas, .fa-solid, .far, .fa-regular, .fal, .fa-light, .fat, .fa-thin, .fad, .fa-duotone, .fab, .fa-brands {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: var(--fa-display, inline-block);
+  font-style: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-rendering: auto;
+}
+
+/* WhatsApp Icon */
+.whatsapp-button i {
+  color: #fff; /* Icon color */
+}
+
+/* Optional additional effect for after pseudo-element */
+.whatsapp-button:after {
+  content: ''; /* Optional additional effect */
 }
