@@ -1,46 +1,4 @@
-/**
- * Template Name: Fungi
- * Template Url: http://ethemestudio.com/demo/fungi
- * Author: eThemeStudio
- * Author Url: http://procodr.com
- * Version: 2.2.7
- * Initial Release: November 22, 2022
- * Last Update: December 13, 2023
- * 
- */
-/* 
 
-====================
-  Table of Contents 
-====================
-
-1. Variables
-2. Common Styles
-3. General Style
-4. Header
-5. Hero Area
-6. Intro Section
-7. About Section
-8. Skill Section 
-9. Portfolio Section 
-10. Service Section
-11. Features Section
-12. Testimonial Section
-13. Blog Section
-14. Partner Section
-15. Contact Section
-16. Site Footer
-17. Libraries
-18. Media Queries
-
- */
-/***********************************************************
-  1. Variables 
-************************************************************/
-/* brand colors */
-/***********************************************************
-  2. Common Styles 
-************************************************************/
 .section-title {
   width: 50%;
   margin-left: auto;
