@@ -2378,7 +2378,6 @@ h6 {
 @keyframes wave {
   0%, 100% {
       transform: translateY(0);
-      background: #4fce5d; /* Wave color */
   }
   50% {
       transform: translateY(-5px); /* Adjust wave height */
@@ -2433,25 +2432,13 @@ h6 {
   font-family: 'Font Awesome 6 Brands'; /* Ensure correct font family */
   font-weight: 400;
 }
-.fa, .fas, .fa-solid, .far, .fa-regular, .fal, .fa-light, .fat, .fa-thin, .fad, .fa-duotone, .fab, .fa-brands {
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  display: var(--fa-display, inline-block);
-  font-style: normal;
-  font-variant: normal;
-  line-height: 1;
-  text-rendering: auto;
-}
 
 /* WhatsApp Icon */
 .whatsapp-button i {
   color: #fff; /* Icon color */
 }
 
-/* Optional additional effect for after pseudo-element */
-.whatsapp-button:after {
-  content: ''; /* Optional additional effect */
-}
+/* Responsive Styles */
 @media (max-width: 768px) { /* Adjust the max-width as needed for your responsive breakpoint */
   .whatsapp-button {
       height: 50px; /* Adjust height for mobile */
@@ -2460,6 +2447,7 @@ h6 {
       font-size: 35px; /* Adjust icon size for mobile */
   }
 }
+
 
 /* Messenger Button Styles */
 .messenger-button {
@@ -2536,5 +2524,7 @@ h6 {
       width: 50px; /* Adjust width for mobile */
       line-height: 50px; /* Center icon vertically for mobile */
       font-size: 35px; /* Adjust icon size for mobile */
+      /* bottom: 60px; Move the button higher on mobile */
+
   }
 }
