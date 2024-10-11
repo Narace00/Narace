@@ -64,6 +64,8 @@
 	<link rel="stylesheet" href="css/whatsapp.css">
 	<link rel="stylesheet" href="css/style.css">
 
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
 	<!-- Font Awesome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
@@ -104,7 +106,7 @@ crossorigin="anonymous"></script>
   gtag('config', 'AW-623179585');
 </script>
 </head>
-<script>
+<!-- <script> -->
 	// Disable right-click
 	document.addEventListener('contextmenu', function(event) {
 	  event.preventDefault();
@@ -1543,6 +1545,7 @@ crossorigin="anonymous"></script>
 						<div class="col-md-12">
 							<label for="inputMessage" class="form-label visually-hidden">Message</label>
 	   						<textarea class="form-control mb-3" id="inputMessage" name="inputMessage" placeholder="Your message here*" required></textarea>
+					        <div class="g-recaptcha" data-sitekey="6LemvV4qAAAAAJt6YXGm6MV2qYwv5skiwSkcG2kD"></div>
 	   						<button type="submit" class="btn btn-main" name="submit">Send Message</button>
 						</div>
 					</form>
