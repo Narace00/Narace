@@ -156,20 +156,21 @@ const swiper2 = new Swiper('.partnerCarousel', {
 /*================================================================= 
     Map
 ==================================================================*/
-var map = L.map('mapwrapper').setView([-37.817160, 144.955937], 12);
+// Set the coordinates for the location
+var latitude =  27.69630254083202;
+var longitude = 85.29468578650736;
 
-L.tileLayer('../../../../%7bs%7d.tile.openstreetmap.org/%7bz%7d/%7bx%7d/%7by%7d.png', {
+// Create the map and set its view to the specified location
+var map = L.map('mapwrapper').setView([latitude, longitude], 14);
+
+// Add the OpenStreetMap tile layer
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
 
+// Add a default marker at the specified location
+L.marker([latitude, longitude]).addTo(map).bindPopup('Location: Kara Khusi Marg , Kathmandu').openPopup();
 
-var greenIcon = L.icon({
-    iconUrl: "image/location.png",
-
-    iconSize:     [48, 48], // size of the icon
-});
-
-L.marker([-37.817160, 144.955937], {icon: greenIcon}).addTo(map);
 
 
 
