@@ -16,103 +16,36 @@
 
   <!-- Portfolio -->
   <url>
-    <loc>https://www.nareshjora.com.np/#portfolio</loc>
+    <loc>https://www.nareshjora.com.np/#portfolio-section</loc>
     <lastmod>2024-09-26</lastmod>
     <priority>0.80</priority>
   </url>
 
-  <!-- Individual Portfolio Items -->
-  <url>
-    <loc>https://www.nareshjora.com.np/#portfolio-item-rainy-design</loc>
-    <lastmod>2024-09-26</lastmod>
-    <priority>0.70</priority>
-  </url>
-
-  <url>
-    <loc>https://www.nareshjora.com.np/#portfolio-item-light-my-fire</loc>
-    <lastmod>2024-09-26</lastmod>
-    <priority>0.70</priority>
-  </url>
-
-  <url>
-    <loc>https://www.nareshjora.com.np/#portfolio-item-turn-off-the-light</loc>
-    <lastmod>2024-09-26</lastmod>
-    <priority>0.70</priority>
-  </url>
-
-  <url>
-    <loc>https://www.nareshjora.com.np/#portfolio-item-smile-that-seems-to-me</loc>
-    <lastmod>2024-09-26</lastmod>
-    <priority>0.70</priority>
-  </url>
-
-  <url>
-    <loc>https://www.nareshjora.com.np/#portfolio-item-so-close-no-matter-how-far</loc>
-    <lastmod>2024-09-26</lastmod>
-    <priority>0.70</priority>
-  </url>
-
-  <url>
-    <loc>https://www.nareshjora.com.np/#portfolio-item-stranger-faces</loc>
-    <lastmod>2024-09-26</lastmod>
-    <priority>0.70</priority>
-  </url>
-
   <!-- Services -->
   <url>
-    <loc>https://www.nareshjora.com.np/#services</loc>
+    <loc>https://www.nareshjora.com.np/#service-section</loc>
     <lastmod>2024-09-26</lastmod>
     <priority>0.80</priority>
   </url>
 
   <!-- Blogs -->
   <url>
-    <loc>https://www.nareshjora.com.np/#blogs</loc>
+    <loc>https://www.nareshjora.com.np/#blog-section</loc>
     <lastmod>2024-09-26</lastmod>
     <priority>0.70</priority>
   </url>
 
-  <!-- Specific Blog Entries -->
-  <url>
-    <loc>https://www.nareshjora.com.np/#blog-javascript-algorithm</loc>
-    <lastmod>2024-09-26</lastmod>
-    <priority>0.60</priority>
-  </url>
-
-  <url>
-    <loc>https://www.nareshjora.com.np/#blog-design-website-figma</loc>
-    <lastmod>2024-09-26</lastmod>
-    <priority>0.60</priority>
-  </url>
-
-  <url>
-    <loc>https://www.nareshjora.com.np/#blog-break-through-side</loc>
-    <lastmod>2024-09-26</lastmod>
-    <priority>0.60</priority>
-  </url>
-
-  <url>
-    <loc>https://www.nareshjora.com.np/#blog-imagine-no-heaven</loc>
-    <lastmod>2024-09-26</lastmod>
-    <priority>0.60</priority>
-  </url>
-
-  <url>
-    <loc>https://www.nareshjora.com.np/#blog-musics-over-light</loc>
-    <lastmod>2024-09-26</lastmod>
-    <priority>0.60</priority>
-  </url>
 
   <!-- Testimonials -->
   <url>
-    <loc>https://www.nareshjora.com.np/#testimonials</loc>
+    <loc>https://www.nareshjora.com.np/#testimonial-section</loc>
     <lastmod>2024-09-26</lastmod>
     <priority>0.70</priority>
   </url>
 
   <!-- Contact -->
   <url>
-    <loc>https://www.nareshjora.com.np/#contact</loc>
+    <loc>https://www.nareshjora.com.np/#contact-section</loc>
     <lastmod>2024-09-26</lastmod>
     <priority>0.80</priority>
   </url>
